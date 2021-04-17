@@ -12,7 +12,12 @@ includes:
 # search: true
 
 code_clipboard: true
+
 ---
+
+# (Deprecated) Integration Documentation
+
+Click here for the  - [Updated Integration Documentation](https://tsbmediaventure.github.io/developer-docs/)
 
 # Getting Started
 

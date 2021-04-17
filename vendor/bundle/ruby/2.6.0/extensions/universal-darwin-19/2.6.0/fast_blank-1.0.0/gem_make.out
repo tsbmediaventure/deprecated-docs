@@ -1,0 +1,16 @@
+current directory: /Users/samakshgupta/TSB/deprecated-docs/vendor/bundle/ruby/2.6.0/gems/fast_blank-1.0.0/ext/fast_blank
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20210417-76945-g3s4jw.rb extconf.rb
+creating Makefile
+
+current directory: /Users/samakshgupta/TSB/deprecated-docs/vendor/bundle/ruby/2.6.0/gems/fast_blank-1.0.0/ext/fast_blank
+make "DESTDIR=" clean
+
+current directory: /Users/samakshgupta/TSB/deprecated-docs/vendor/bundle/ruby/2.6.0/gems/fast_blank-1.0.0/ext/fast_blank
+make "DESTDIR="
+compiling fast_blank.c
+linking shared-object fast_blank.bundle
+ld: warning: directory not found for option '-L/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.Internal.sdk/usr/local/lib'
+
+current directory: /Users/samakshgupta/TSB/deprecated-docs/vendor/bundle/ruby/2.6.0/gems/fast_blank-1.0.0/ext/fast_blank
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 fast_blank.bundle ./.gem.20210417-76945-7ef4nj
