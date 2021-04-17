@@ -47,9 +47,32 @@ html, body {
   width: 20px;
 }
 
+.instruction-bg {
+  background-color: #e1f9fb;
+  color: black; 
+  padding: 15px !important;
+}
+
+.instruction-bg-url {
+  background-color: #e1f9fb;
+  color: black; 
+  padding: 15px !important;
+  padding-left: 3rem !important;
+}
+
+.function-params {
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#getting-started {
+  padding-top: 3rem; 
+}
+
 .toc-wrapper {
   transition: left 0.3s ease-in-out;
-
   overflow-y: auto;
   overflow-x: hidden;
   position: fixed;
@@ -58,7 +81,7 @@ html, body {
   left: 0;
   bottom: 0;
   width: $nav-width;
-  background-color: $nav-bg;
+  background-color: #fff;
   font-size: 13px;
   font-weight: bold;
 
@@ -74,15 +97,17 @@ html, body {
   // This is the logo at the top of the ToC
   .logo {
     display: block;
-    max-width: 100%;
-    margin-bottom: $logo-margin;
+    max-width: 75%;
+    padding-bottom: 3rem;
+    margin: auto;
+    margin-top: 3rem; 
   }
 
   &>.search {
     position: relative;
 
     input {
-      background: $nav-bg;
+      background: transparent;
       border-width: 0 0 1px 0;
       border-color: $search-box-border-color;
       padding: 6px 0 6px 20px;
@@ -153,14 +178,14 @@ html, body {
 
   // This is the currently selected ToC entry
   .toc-link.active {
-    background-color: $nav-active-bg;
+    background-color: #19b4c8;
     color: $nav-active-text;
   }
 
   // this is parent links of the currently selected ToC entry
   .toc-link.active-parent {
-    background-color: $nav-active-parent-bg;
-    color: $nav-active-parent-text;
+    background-color: #fff;
+    color: #19b4c8;
   }
 
   .toc-list-h2 {
@@ -172,6 +197,7 @@ html, body {
   .toc-h2 {
     padding-left: $nav-padding + $nav-indent;
     font-size: 12px;
+    background-color: #fff;
   }
 
   .toc-footer {
@@ -203,7 +229,7 @@ html, body {
   white-space: nowrap;
   text-overflow: ellipsis;
   text-decoration: none;
-  color: $nav-text;
+  color: #19b4c8;
   transition-property: background;
   transition-timing-function: linear;
   transition-duration: 130ms;
@@ -251,7 +277,7 @@ html, body {
   margin-left: $nav-width;
   position: relative;
   z-index: 10;
-  background-color: $main-bg;
+  background-color: #fff;
   min-height: 100%;
 
   padding-bottom: 1px; // prevent margin overflow
@@ -351,10 +377,9 @@ html, body {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     margin-bottom: $h1-margin-bottom;
-    margin-top: 2em;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    background-color: #fdfdfd;
+    margin-top: 1em;
+    background-color: #fff;
+    color: #19b4c8;
   }
 
   h1:first-child, div:first-child + h1 {
@@ -502,7 +527,7 @@ html, body {
     margin: -3px;
     border-radius: 4px;
     border: 1px solid #F7E633;
-    background: linear-gradient(to top left, #F7E633 0%, #F1D32F 100%);
+    background: transparent;
   }
 }
 
